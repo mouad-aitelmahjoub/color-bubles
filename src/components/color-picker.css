@@ -1,0 +1,31 @@
+.bubbleChoiceList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubbleChoiceItem i {
+  font-size: 64px;
+  color: burlywood;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+.colorChoices {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.colorChoices .color {
+  width: 90px;
+  padding: 10px 5px;
+  margin: 5px;
+  border: 2px solid ghostwhite;
+  border-radius: 10px;
+  font-weight: 600;
+  color: ghostwhite;
+  background-color: #e17055;
+  text-align: center;
+  cursor: pointer;
+}
