@@ -1,24 +1,28 @@
 import { v4 as uuid } from "uuid"
 
-export const bubbles = [
+export const initBubbles = [
   {
     id: uuid(),
-    color: "#" + Math.floor(Math.random() * 16777215).toString(16),
+    color: "burlywood",
   },
   {
     id: uuid(),
-    color: "#" + Math.floor(Math.random() * 16777215).toString(16),
+    color: "burlywood",
   },
   {
     id: uuid(),
-    color: "#" + Math.floor(Math.random() * 16777215).toString(16),
+    color: "burlywood",
   },
   {
     id: uuid(),
-    color: "#" + Math.floor(Math.random() * 16777215).toString(16),
+    color: "burlywood",
   },
   {
     id: uuid(),
-    color: "#" + Math.floor(Math.random() * 16777215).toString(16),
+    color: "burlywood",
+  },
+  {
+    id: uuid(),
+    color: "burlywood",
   },
 ]
